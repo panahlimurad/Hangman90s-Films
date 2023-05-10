@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman 90's artist</title>
+    <link rel="stylesheet" href="./assens/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <p>
+            If you had a childhood in the 90's, it will be easy to guess by looking at these pictures. So let's start...
+        </p>
+    </header>
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <div class="poster">
+                <img id="imageFilm" src="./assens/img/police academy.jpg" alt="">
+            </div>
+            <div class="rightMain">
+                <div class="textOne">
+                    <p id="domWrongLetters"></p>
+                    <p id="calculate">10</p>
+                </div>
+                <div class="textSecond">
+                    <!-- <div class="letter">c</div>
+                    <div class="letter">s</div>
+                    <div class="letter">s</div> -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="win">
+             <p>You answered the pictures correctly, congratulation...</p>
+        </div>  
+         <div class="lose">
+             <p>Your guess count is over. You Lost</p>
+        </div>
+        <div class="same">
+             <p>You entered the same again. Please select another letter</p>
+        </div>
+    </footer>
+    <script src="./assens/app.js"></script>
+</body>
+
+</html>

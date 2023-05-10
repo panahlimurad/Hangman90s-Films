@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Header */
+header{
+    text-align: center;
+    font-size: 30px;
+    background-color: #696969	;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    color: 	#f8f8ff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Main */
+
+.container{
+    display: flex;
+}
+
+.poster{
+    width: 50%;
+    height: 100%;
+}
+
+.poster img{
+    margin-top: 50px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.rightMain{
+    background-color: #696969;
+    margin-top: 50px;
+    text-align: center;
+    width: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+    color: 	#f8f8ff;
+    border-radius: 10px;
+}
+
+.textOne p {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.textSecond {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.letter{
+    border-bottom: 3px solid #d3d3d3;
+    margin: 5px;
+    font-size: 30px;
+    width: 15px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+/* When user win */
+.win {
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+    position:absolute;
+    bottom: 0px;
+    transition: opacity 2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: 	#f8f8ff;
+    background-color: #696969;
+    opacity: 0;
+}
+
+/* when user lost*/
+.lose {
+   font-size: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+    position:absolute;
+    bottom: 0px;
+    transition: opacity 2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: 	#f8f8ff;
+    background-color: #696969;
+    opacity: 0;
+}
+
+/* when the same letter is entered again */
+
+.same{
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+    position:absolute;
+    bottom: 0px;
+    transition: opacity 2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: 	#f8f8ff;
+    background-color: #696969;
+    opacity: 0;
+}
